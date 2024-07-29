@@ -1,0 +1,171 @@
+/* 
+
+.file-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: purple-100;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('../public/background.jfif'); 
+  background-size: cover; 
+  background-position: center; 
+  min-height:100vh;
+  overflow: hidden;
+}
+
+.input-textarea {
+  width: 100%;
+}
+
+.convert-button {
+  margin-top: 10px;
+}
+
+.file-preview {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.file-preview-xlxs {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.spinner {
+  margin-top: 20px;
+}
+
+
+.file-preview table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.file-preview th,
+.file-preview td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.file-preview th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.spinner {
+  display: block;
+  margin-top: 20px;
+}
+
+
+.file-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 0.5rem; 
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chip {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-wrapper {
+  margin: 0 0.5rem;
+}
+
+.input-area-div { 
+  width: 100%;
+  border: 1px solid #111111;
+  padding: 8px;
+}
+
+.large-tag {
+  font-size: 1rem; 
+  padding: 10px 20px; 
+  border-radius: 8px; 
+}
+
+.large-tag .p-tag {
+  font-size: inherit;
+}
+
+.large-tag .p-tag-icon {
+  font-size: inherit; 
+} */
+
+.background-container {
+  /* background-image: url('../public/background4.jpg'); */
+  background-color: #BFDBFE;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+
+.file-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-area-div {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  border: 1px solid #111111;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 0.5rem; 
+}
+
+
+.file-preview {
+  width: 100%;
+  height: 500px;
+}
+
+.file-preview-xlxs {
+  width: 100%;
+  height: 700px;
+}
+
+.convert-button {
+  margin-bottom: 20px;
+}
+
+.spinner {
+  margin-top: 20px;
+}
