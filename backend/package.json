@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "render-build":"npm install && npm run build",
   "scripts": {
     "start": "nodemon src/index.js"
   },
